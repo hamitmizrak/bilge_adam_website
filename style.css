@@ -56,3 +56,9 @@ overflow: hidden;
     box-shadow: 1px 1px 15px 1px #02a4e4;
     transition: 1s all;
 }
+
+
+/* navbar*/
+#navbar_id i{
+    color:rgb(76, 76, 216);
+}
