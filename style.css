@@ -93,6 +93,11 @@ header div{
 
 /* main*/
 
+.card-title{
+    text-align: center;
+    text-transform: uppercase;
+}
+
 /*footer*/
 footer{
     height: 18rem;
