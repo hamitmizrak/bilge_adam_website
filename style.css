@@ -98,6 +98,10 @@ header div{
     text-transform: uppercase;
 }
 
+#product .row .card{
+    margin-bottom: 4%;
+}
+
 /*footer*/
 footer{
     height: 18rem;
