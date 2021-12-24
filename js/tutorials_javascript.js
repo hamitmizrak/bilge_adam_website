@@ -1,3 +1,5 @@
+//"use strict"
+
 // Ctrl+k+c =yorumlama kapatır
 // Ctrl+k+u =yorumu açar
 
@@ -13,14 +15,13 @@
 
 //*************************************************************************
 //type
-
 // var sayi="kelime",sayi2;
 // sayi=true;
 // //sayi=34.56;
 // //sayi=44;
 
 // alert(typeof sayi)
-//instanceof
+// instanceof
 // alert(sayi);
 
 //***********************************************************************
@@ -44,6 +45,7 @@
 
 //*************************************************************************
 // var $44_deneme=55;
+// var _44_deneme=55;
 // alert($44_deneme)
 
 //*************************************************************************
@@ -171,4 +173,278 @@
 // console.log(kelime);
 
 // //****************************************************************************
-// //  function
+// //  function: sürekli kodlar , kodlarda iyi yazılması ,
+
+//parametresiz function
+// function deneme() {
+//   alert("Merhabalar Function");
+// }
+// deneme();
+//////////////////////////////
+//parametreli function
+// function deneme2(sayi) {
+//   alert("Function2: " + Math.pow(sayi, 2));
+// }
+// deneme2( Number(4.16));
+
+//////////////////////////////
+//değişkende kullanabileceğim bir function lazımsa
+//Javadaki ==> void olmayan
+// function deneme3(sayi) {
+//   return Math.pow(sayi, 2);
+// }
+// var _temp = deneme3(Number(4.16));
+// alert(_temp);
+
+/// kullanıcıdan girilen bir sayının negatif olup olmadığını hesaplayan algoritma ?
+// if else
+//function
+// var userPoint = Number(prompt("Lütfen bir sayı giriniz"));
+// //1.yol
+// if (userPoint < 0) {
+//   console.log("Negatif");
+// } else {
+//   console.log("Pozitif");
+// }
+
+////2.YOL
+// () ? true:false;
+// var deneme4 = (userPoint < 0) ? "Negatif" : "Pozitif ";
+// console.log(deneme4);
+
+// function deneme5(number1) {
+//   if (number1 < 0) {
+//     console.log("Negatif");
+//   } else {
+//     console.log("Pozitif");
+//   }
+// }
+// deneme5(userPoint);
+
+/////////////////////////////////////////
+//anonymous:anonim bilinmeyen : atasözlerimiz
+// function name4(params) {
+//   alert("deneme");
+// }
+
+//name4();
+
+//1-normal değişkene verdiğim fonkisyon
+// var deneme5 = function adi() {
+//   alert("deneme");
+// };
+// deneme5();
+
+//2-)anonymous function
+// var deneme6 = function () {
+//   alert("deneme6");
+// };
+// deneme6();
+
+//3-)()=>{}
+// var deneme7 = () => {
+//   alert("deneme7");
+// };
+//deneme7();
+
+//4-)()=>{},
+// var deneme7 = (sayi) => {
+//   alert(sayi * sayi);
+// };
+// deneme7(4);
+
+///////////////////////////////////////////////////////////////////////////////////////////////////////
+//6 sayısını hariç  0-1000 dahil olmak üzere çift syıları ekranda yazdırınız ancak 16 varsa program dursun
+// for (var i = 0; i <= 1000; i++) {
+//   if (i == 16) {
+//     break;
+//   }
+
+//   if (i === 6) {
+//     continue;
+//   }
+
+//   if (i % 2 == 0) {
+//     console.log(i + " ");
+//   }
+// }
+
+///////////////////////////////////////////////////////////////////////////////////////////////////////
+// var dizi = ["Elazığ", "Malatya", "Nevşehir", "İstanbul", "Ankara", 22,true];
+//for in : indis
+// for (var temp in dizi) {
+//   console.log(temp);
+// }
+
+// for (var temp in dizi) {
+//   console.log(dizi[temp]);
+// }
+
+//for of
+// for (var temp of dizi) {
+//   console.log(temp);
+// }
+///////////////////////////////////////////////////////////////////////////////////////////////////////
+//global nesne
+// var adi = "Hamit";
+
+// function adiSoyadi() {
+//   let soyadi = "Mızrak";
+//   alert("adi: " + this.adi + " soyadım: " + soyadi);
+// }
+// //adiSoyadi();
+
+// function adiSoyadi2() {
+//   alert("adi: " + adi + " soyadım: " +soyadi);
+// }
+// adiSoyadi2();
+///////////////////////////////////////////////////////////////////////////////////////////////////////
+//var: sadece globalde kullşanalı
+//let: fonkisyon,for
+
+// for (let i = 0; i <= 10; i++) {
+//   console.log(i);
+// }
+// console.log("*************************");
+
+// var i2 = 0;
+// while (i2 <= 10) {
+//   console.log(i2);
+//   i2++;
+// }
+
+// console.log("*************************");
+// var i3 = 0;
+// do {
+//   console.log(i3);
+//   i3++;
+// } while (i3 <= 10);
+
+///////////////////////////////////////////////////////////////////////////////////////////////////////
+// "use strict";
+//public ,private,protected,implements,interface,enum v.s
+// a = 5;
+//alert(a);
+
+///////////////////////////////////////////////////////////////////////////////////////////////////////
+// var tarih = new Date();
+//var tarih = new Date("2020 1 1");
+//günlerde: 1-31
+//aylar:0-11
+//saat:0-23
+//saniye:0-59
+
+// console.log(tarih);
+// console.log(tarih.toUTCString());
+// console.log(tarih.getDate());
+// console.log(tarih.getMinutes());
+// console.log(tarih.getTime());
+// console.log("sadasd: " + new Date(tarih.getTime()));
+
+// console.log(tarih.setDate(2));
+// console.log(tarih.getDate());
+///////////////////////////////////////////////////////////////////////////////////////////////////////
+// var object1=new Object();
+// var object2={}
+
+// var dizi1=new Array();
+// var dizi2=[]
+
+///////////////////////////////////////////////////////////////////////////////////////////////////////
+
+// var x,y,z;
+// x=5;
+// debugger;
+// y=45;
+// z=63;
+// var m=x+y+z;
+// console.log(m);
+
+///////////////////////////////////////////////////////////////////////////////////////////////////////
+// var x, y, z;
+// x = 5;
+// y = 45;
+// z = 63;
+// var m = x + y + z;
+// console.log(m);
+// console.log(m);
+///////////////////////////////////////////////////////////////////////////////////////////////////////
+//dizi
+// var dizi = ["çstanbul", "üAnkara", "1Muş", "2Van"];
+// dizi.sort();
+// console.log(dizi);
+// console.log(dizi);
+// console.log(dizi[0].concat(" sona44"));
+
+// for (let index = 0; index < dizi.length; index++) {
+//   console.log(dizi[index]);
+// }
+
+// //eklemek
+// //push:sona bir eleman ekle
+// dizi.push(" sona ekledim");
+// console.log(dizi);
+
+// //unshift:baştan bir eleman ekle
+// dizi.unshift(" başa ekledim");
+// console.log(dizi);
+
+// //çıkarmak
+// //son elemanda bir tanesi çıkar
+// //LIFO
+// var deneme = dizi.pop();
+// console.log(dizi);
+
+// //baştaki elemandan bir tane çıkar
+// dizi.shift();
+// console.log(dizi);
+
+// delete dizi[0];
+// console.log(dizi);
+
+// dizi.sort();
+// console.log("baştan sona" + dizi);
+
+// dizi.reverse();
+// console.log("sondan başa" + dizi);
+
+// var dizi2=dizi.reverse();
+// var join4=dizi2.join("*");
+
+//diziyi String'e çevirmek
+// var dizi2 = ["Sercan", "Melih", "Mustafa", "Çağrı"];
+// console.log(dizi2[0].toString().concat("9"));
+//  console.log(dizi2);
+//  console.log(dizi2.join("+"));
+////////////////////////////////////////////////////////////////////////////////////////////////////
+
+//DOM: Document OBject Model
+// document.getElementById("dom_id").style.color = "blue";
+// document.querySelector("#dom_id").style.fontSize ="400px";
+
+// document.getElementsByClassName("dom_class")[0].style.fontSize = "255px";
+// document.querySelector(".dom_class").style.fontSize ="400px";
+
+// document.getElementsByName("dom_name")[0].style.backgroundColor = "red";
+// document.getElementsByTagName("p")[0].style.color = "yellow";
+
+//selector
+document.querySelector("#dom > .deneme2").style.color = "red";
+
+///////////////////////////////////////////////////////////////////////////////////////////////////
+//event
+function tarihGoster() {
+  //alert(new Date());
+  document.getElementById("tarih").innerHTML =
+    "<b> <i>" + new Date() + "</i></b>";
+  document.getElementById("tarih2").innerText =
+    "<b> <i>" + new Date() + "</i></b>";
+}
+
+///////////////////////////////////////////////////////////////////////////////////////////////////
+//listener
+var count = 0;
+document.getElementById("button_id2").addEventListener("onmouseup", () => {
+  count++;
+  alert(count + " Tıklandı");
+});

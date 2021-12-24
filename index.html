@@ -47,7 +47,7 @@
     <!-- navbar start -->
     <div
       class="container-fluid"
-      style="position: fixed !important; top: 0; z-index: 4"
+      style="position: fixed !important; top: 0; z-index: 4; width: 100%;"
     >
       <nav id="navbar_id" class="navbar navbar-expand-lg navbar-dark bg-dark">
         <div class="container-fluid">
@@ -628,6 +628,15 @@
     </div>
    </section>
    <br><br><br><br>
+
+   <p id="dom_id" class="dom_class text-center display-1">Projelerim-1 DOM </p>
+   <p  class="dom_class text-center display-1">Projelerim-2 DOM </p>
+    <div id="dom">
+      <p  class="deneme text-center display-1">Sub Projelerim-1 DOM </p>
+      <p  class="deneme2 text-center display-1">Sub Projelerim-2 DOM </p>
+    </div>
+ 
+    <br><br><br><br>
     </main>
     <!-- main finish -->
 
@@ -653,6 +662,14 @@
                 <i class="fa fa-mobile" aria-hidden="true"
                   ><a href="tel:+905555555">+90 555 55 55</a>
                 </i>
+              </li>
+              <li>
+                <button onclick ="tarihGoster()"  id="button_id" class="btn btn-primary mt-2">click</button>
+                <button ondblclick ="tarihGoster()"   class="btn btn-primary mt-2">ondblclick</button>
+                <button onmouseup ="tarihGoster()"  id="button_id2" class="btn btn-primary mt-2">onmouseup</button>
+                <p id="tarih"></p>
+                <p id="tarih2"></p>
+
               </li>
             </ul>
           </div>
