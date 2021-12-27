@@ -1,734 +1,777 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <title>Web site</title>
-    <!-- Required meta tags -->
 
-    <meta charset="utf-8" />
-    <meta
-      name="viewport"
-      content="width=device-width, initial-scale=1, shrink-to-fit=no"
-    />
+    <head>
+        <title>Web site</title>
+        <!-- Required meta tags -->
 
-    <meta name="author" content="Hamit Mızrak" />
-    <meta name="title" content="Google ve/veya other browser show in" />
-    <meta name="description" content="html5,css3,js,jquery,bootstrap" />
+        <meta charset="utf-8"/>
+        <meta
+            name="viewport"
+            content="width=device-width, initial-scale=1, shrink-to-fit=no"/>
 
-    <!-- Bootstrap CSS -->
+        <meta name="author" content="Hamit Mızrak"/>
+        <meta name="title" content="Google ve/veya other browser show in"/>
+        <meta name="description" content="html5,css3,js,jquery,bootstrap"/>
 
-    <!-- Bootstrap CSS -->
-    <link
-      href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css"
-      rel="stylesheet"
-      integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3"
-      crossorigin="anonymous"
-    />
+        <!-- Bootstrap CSS -->
 
-    <!-- font-awesome  -->
-    <link
-      rel="stylesheet"
-      href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css"
-      integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p"
-      crossorigin="anonymous"
-    />
+        <!-- Bootstrap CSS -->
+        <link
+            href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css"
+            rel="stylesheet"
+            integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3"
+            crossorigin="anonymous"/>
 
-    <!-- google font -->
-    <link
-      href="https://fonts.googleapis.com/css2?family=Inconsolata&display=swap"
-      rel="stylesheet"
-    />
+        <!-- font-awesome -->
+        <link
+            rel="stylesheet"
+            href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css"
+            integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p"
+            crossorigin="anonymous"/>
 
-    <!-- external css -->
-    <link rel="stylesheet" href="style.css" />
-  </head>
-  <body style="background: #f4fdff;">
-    <!-- Optional JavaScript -->
+        <!-- google font -->
+        <link
+            href="https://fonts.googleapis.com/css2?family=Inconsolata&display=swap"
+            rel="stylesheet"/>
 
-    <!-- navbar start -->
-    <div
-      class="container-fluid"
-      style="position: fixed !important; top: 0; z-index: 4; width: 100%;"
-    >
-      <nav id="navbar_id" class="navbar navbar-expand-lg navbar-dark bg-dark">
-        <div class="container-fluid">
-          <div class="row">
-            <div class="col-md-2">
-              <a class="navbar-brand" href="#">
-                <img src="img/logo.jpg" id="logo" alt="" srcset="" />
-              </a>
-              <button
-                class="navbar-toggler"
-                type="button"
-                data-bs-toggle="collapse"
-                data-bs-target="#navbarSupportedContent"
-                aria-controls="navbarSupportedContent"
-                aria-expanded="false"
-                aria-label="Toggle navigation"
-              >
-                <span class="navbar-toggler-icon"></span>
-              </button>
-            </div>
-            <div class="col-md-10">
-              <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                <div class="row">
-                  <div class="col-md-8">
-                    <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-                      <li class="nav-item">
-                        <a class="nav-link active" aria-current="page" href="#"
-                          ><i class="fas fa-home"></i> Anasayfa</a
-                        >
-                      </li>
-                      <li class="nav-item">
-                        <a class="nav-link" href="#"
-                          ><i class="fas fa-newspaper"></i> Haberler</a
-                        >
-                      </li>
-                      <li class="nav-item">
-                        <a
-                          href="#sss_id"
-                          class="nav-link"
-                        >
-                          <i class="fa fa-battery-full" aria-hidden="true"></i> S.S.S</a
-                        >
-                      </li>
-                      <li class="nav-item dropdown">
-                        <a
-                          class="nav-link dropdown-toggle"
-                          href="#"
-                          id="navbarDropdown"
-                          role="button"
-                          data-bs-toggle="dropdown"
-                          aria-expanded="false"
-                        >
-                        <i class="fas fa-user-lock"></i>  Login
-                        </a>
-                        <ul
-                          class="dropdown-menu"
-                          aria-labelledby="navbarDropdown"
-                        >
-                          <li>
+        <!-- external css -->
+        <link rel="stylesheet" href="style.css"/>
+    </head>
 
-                            <a
-                            data-toggle="modal"
-                            data-target="#register_id"
-                            href="#"
-                            class="nav-link"
-                          >
-                            <i class="fas fa-user-lock text-success"> Register</i> </a
-                          >
+    <body style="background: #f4fdff;">
+        <!-- Optional JavaScript -->
 
-                          </li>
-                          <li><hr class="dropdown-divider" /></li>
-                          <li>
-                            <li>
+        <!-- navbar start -->
+        <div
+            class="container-fluid"
+            style="position: fixed !important; top: 0; z-index: 4; width: 100%;">
+            <nav id="navbar_id" class="navbar navbar-expand-lg navbar-dark bg-dark">
+                <div class="container-fluid">
+                    <div class="row">
+                        <div class="col-md-2">
+                            <a class="navbar-brand" href="#">
+                                <img src="img/logo.jpg" id="logo" alt="" srcset=""/>
+                            </a>
+                            <button
+                                class="navbar-toggler"
+                                type="button"
+                                data-bs-toggle="collapse"
+                                data-bs-target="#navbarSupportedContent"
+                                aria-controls="navbarSupportedContent"
+                                aria-expanded="false"
+                                aria-label="Toggle navigation">
+                                <span class="navbar-toggler-icon"></span>
+                            </button>
+                        </div>
+                        <div class="col-md-10">
+                            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                                <div class="row">
+                                    <div class="col-md-8">
+                                        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                                            <li class="nav-item">
+                                                <a class="nav-link active" aria-current="page" href="#">
+                                                    <i class="fas fa-home"></i>
+                                                    Anasayfa</a>
+                                            </li>
+                                            <li class="nav-item">
+                                                <a class="nav-link" href="#">
+                                                    <i class="fas fa-newspaper"></i>
+                                                    Haberler</a>
+                                            </li>
+                                            <li class="nav-item">
+                                                <a href="#sss_id" class="nav-link">
+                                                    <i class="fa fa-battery-full" aria-hidden="true"></i>
+                                                    S.S.S</a>
+                                            </li>
+                                            <li class="nav-item dropdown">
+                                                <a
+                                                    class="nav-link dropdown-toggle"
+                                                    href="#"
+                                                    id="navbarDropdown"
+                                                    role="button"
+                                                    data-bs-toggle="dropdown"
+                                                    aria-expanded="false">
+                                                    <i class="fas fa-user-lock"></i>
+                                                    Login
+                                                </a>
+                                                <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
 
-                              <a
-                              data-toggle="modal"
-                              data-target="#login_id"
-                              href="#"
-                              class="nav-link"
-                            >
-                              <i class="fas fa-user-lock text-warning">Login</i> </a
-                            >
-  
-                            </li>
-                          </li>
-                        </ul>
-                      </li>
-                     
-                    </ul>
-                  </div>
-                  <div class="col-md-4">
-                    <form class="d-flex">
-                      <input
-                        class="form-control me-2"
-                        type="search"
-                        placeholder="Search"
-                        aria-label="Search"
-                      />
-                      <button class="btn btn-outline-success" type="submit">
-                        Search
-                      </button>
-                    </form>
-                  </div>
+                                                    <li>
+                                                        <a href="#" data-target="#vki" data-toggle="modal" class="nav-link">
+                                                            <i class="fa fa-angle-down" aria-hidden="true"> VKI hesapla</i>
+                                                           </a>
+                                                    </li>
+
+                                                    <li>
+
+                                                        <a data-toggle="modal" data-target="#register_id" href="#" class="nav-link">
+                                                            <i class="fas fa-user-lock text-success">
+                                                                Register</i>
+                                                        </a>
+
+                                                    </li>
+                                                    <li>
+                                                        <hr class="dropdown-divider"/>
+                                                    </li>
+                                                    <li>
+                                                    <li>
+
+                                                        <a data-toggle="modal" data-target="#login_id" href="#" class="nav-link">
+                                                            <i class="fas fa-user-lock text-warning">Login</i>
+                                                        </a>
+
+                                                    </li>
+                                                </li>
+                                            </ul>
+                                        </li>
+
+                                    </ul>
+                                </div>
+                                <div class="col-md-4">
+                                    <form class="d-flex">
+                                        <input
+                                            class="form-control me-2"
+                                            type="search"
+                                            placeholder="Search"
+                                            aria-label="Search"/>
+                                        <button class="btn btn-outline-success" type="submit">
+                                            Search
+                                        </button>
+                                    </form>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
                 </div>
-              </div>
             </div>
-          </div>
-        </div>
-      </nav>
+        </nav>
     </div>
     <!-- navbar ends -->
 
+    <div class="modal fade" id="vki" role="dialog">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <button type="button" class="close" data-dismiss="modal">
+                        &times;
+                    </button>
+                </div>
+                <div class="modal-body">
+                    <h4 class="text-center text-primary">Vucut Kitle Endex</h4>
+                    <form action="#" method="get" autocomplete="true">
+                        <div class="container">
+                            <div class="row">
+                                <div class="col-md-2">Kilo</div>
+                                <div class="col-md-10">
+                                    <div class="form-group">
+                                        <input
+                                            type="text"
+                                            class="form-control"
+                                            autofocus="autofocus"
+                                            id="kilo"
+                                            name="kilo"
+                                            placeholder="Lutfen kilonuzu giriniz">
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="row mt-2">
+                                <div class="col-md-2">Boy</div>
+                                <div class="col-md-10">
+                                    <div class="form-group">
+                                        <input
+                                            type="text"
+                                            class="form-control"
+                                            autofocus="autofocus"
+                                            id="boy"
+                                            name="boy"
+                                            placeholder="Lutfen boyunuzu giriniz">
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="row mt-2 mb-2">
+                                <div class="col-md-2"></div>
+                                <div class="col-md-10">
+                                    <div class="form-group">
+                                        <button type="reset" class="btn btn-danger">Temizle</button>
+                                        <button type="submit" class="btn btn-primary">Gönder</button>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="row mt-2">
+                                <div class="col-md-2">Orta:</div>
+                                <div class="col-md-10">
+                                    <p id="ortalama" name="ortalama">...</p>
+                                </div>
+                            </div>
+                            <div class="row mt-2">
+                                <div class="col-md-2">Sonuc:</div>
+                                <div class="col-md-10">
+                                    <p id="sounc" name="sonuc">...</p>
+                                </div>
+                            </div>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+
     <!-- register_id -->
     <div class="modal fade" id="register_id" role="dialog">
-      <div class="modal-dialog">
-        <div class="modal-content">
-          <!-- modal-header -->
-          <div class="modal-header">
-            <button type="button" class="close" data-dismiss="modal">
-              &times;
-            </button>
-          </div>
-          <!-- modal-body -->
-          <div class="modal-body">
-            <h4 class="text-center text-primary">Register</h4>
-
-            <form action="#" method="get" autocomplete="true">
-              <div class="container">
-                <div class="row">
-                  <div class="col-md-2">Adı:</div>
-                  <div class="col-md-10">
-                    <div class="form-group">
-                      <input
-                        id="register_name"
-                        name="register_name"
-                        type="text"
-                        class="form-control"
-                        placeholder="lütfen adınızı giriniz"
-                        required
-                        autofocus
-                      />
-                    </div>
-                  </div>
-
-                  <div class="col-md-2">Soyadı:</div>
-                  <div class="col-md-10">
-                    <div class="form-group">
-                      <input
-                        id="register_surname"
-                        name="register_surname"
-                        type="text"
-                        class="form-control"
-                        placeholder="lütfen soyadınızı giriniz"
-                        required
-                      />
-                    </div>
-                  </div>
-
-                  <div class="col-md-2">Şifre:</div>
-                  <div class="col-md-10">
-                    <div class="form-group">
-                      <input
-                        id="register_password"
-                        name="register_password"
-                        type="text"
-                        class="form-control"
-                        placeholder="lütfen sifrenizi giriniz"
-                        required
-                      />
-                    </div>
-                  </div>
-
-                  <div class="col-md-2">Email:</div>
-                  <div class="col-md-10">
-                    <div class="form-group">
-                      <input
-                        id="register_email"
-                        name="register_email"
-                        type="text"
-                        class="form-control"
-                        placeholder="lütfen emaliizi giriniz"
-                        required
-                      />
-                    </div>
-                  </div>
-
-                  <div class="col-md-2"></div>
-                  <div class="col-md-10">
-                    <button type="reset" class="btn btn-danger">Temizle</button>
-                    <button type="submit" class="btn btn-primary">
-                      Gönder
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <!-- modal-header -->
+                <div class="modal-header">
+                    <button type="button" class="close" data-dismiss="modal">
+                        &times;
                     </button>
-                  </div>
                 </div>
-              </div>
-            </form>
-          </div>
-          <!-- modal-footer -->
-          <div class="modal-footer">
-            <button type="button" class="btn btn-danger" data-dismiss="modal">
-              Kapat
-            </button>
-          </div>
+                <!-- modal-body -->
+                <div class="modal-body">
+                    <h4 class="text-center text-primary">Register</h4>
+
+                    <form action="#" method="get" autocomplete="true">
+                        <div class="container">
+                            <div class="row">
+                                <div class="col-md-2">Adı:</div>
+                                <div class="col-md-10">
+                                    <div class="form-group">
+                                        <input
+                                            id="register_name"
+                                            name="register_name"
+                                            type="text"
+                                            class="form-control"
+                                            placeholder="lütfen adınızı giriniz"
+                                            required="required"
+                                            autofocus="autofocus"/>
+                                    </div>
+                                </div>
+
+                                <div class="col-md-2">Soyadı:</div>
+                                <div class="col-md-10">
+                                    <div class="form-group">
+                                        <input
+                                            id="register_surname"
+                                            name="register_surname"
+                                            type="text"
+                                            class="form-control"
+                                            placeholder="lütfen soyadınızı giriniz"
+                                            required="required"/>
+                                    </div>
+                                </div>
+
+                                <div class="col-md-2">Şifre:</div>
+                                <div class="col-md-10">
+                                    <div class="form-group">
+                                        <input
+                                            id="register_password"
+                                            name="register_password"
+                                            type="text"
+                                            class="form-control"
+                                            placeholder="lütfen sifrenizi giriniz"
+                                            required="required"/>
+                                    </div>
+                                </div>
+
+                                <div class="col-md-2">Email:</div>
+                                <div class="col-md-10">
+                                    <div class="form-group">
+                                        <input
+                                            id="register_email"
+                                            name="register_email"
+                                            type="text"
+                                            class="form-control"
+                                            placeholder="lütfen emaliizi giriniz"
+                                            required="required"/>
+                                    </div>
+                                </div>
+
+                                <div class="col-md-2"></div>
+                                <div class="col-md-10">
+                                    <button type="reset" class="btn btn-danger">Temizle</button>
+                                    <button type="submit" class="btn btn-primary">
+                                        Gönder
+                                    </button>
+                                </div>
+                            </div>
+                        </div>
+                    </form>
+                </div>
+                <!-- modal-footer -->
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-danger" data-dismiss="modal">
+                        Kapat
+                    </button>
+                </div>
+            </div>
         </div>
-      </div>
     </div>
 
     <!-- header start -->
     <header>
-      <div
-        id="carouselExampleCaptions"
-        class="carousel slide"
-        data-bs-ride="carousel"
-      >
-        <div class="carousel-indicators">
-          <button
-            type="button"
-            data-bs-target="#carouselExampleCaptions"
-            data-bs-slide-to="0"
-            class="active"
-            aria-current="true"
-            aria-label="Slide 1"
-          ></button>
-          <button
-            type="button"
-            data-bs-target="#carouselExampleCaptions"
-            data-bs-slide-to="1"
-            aria-label="Slide 2"
-          ></button>
-          <button
-            type="button"
-            data-bs-target="#carouselExampleCaptions"
-            data-bs-slide-to="2"
-            aria-label="Slide 3"
-          ></button>
+        <div
+            id="carouselExampleCaptions"
+            class="carousel slide"
+            data-bs-ride="carousel">
+            <div class="carousel-indicators">
+                <button
+                    type="button"
+                    data-bs-target="#carouselExampleCaptions"
+                    data-bs-slide-to="0"
+                    class="active"
+                    aria-current="true"
+                    aria-label="Slide 1"></button>
+                <button
+                    type="button"
+                    data-bs-target="#carouselExampleCaptions"
+                    data-bs-slide-to="1"
+                    aria-label="Slide 2"></button>
+                <button
+                    type="button"
+                    data-bs-target="#carouselExampleCaptions"
+                    data-bs-slide-to="2"
+                    aria-label="Slide 3"></button>
+            </div>
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <img src="img/town-6818441_1920.jpg" class="d-block w-100" alt="..."/>
+                    <div class="carousel-caption d-none d-md-block">
+                        <h5>Bilge Adam</h5>
+                        <p>
+                            Some representative placeholder content for the first slide.
+                        </p>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <img src="img/mountains-5784153_1920.jpg" class="d-block w-100" alt="..."/>
+                    <div class="carousel-caption d-none d-md-block">
+                        <h5>Second slide label</h5>
+                        <p>
+                            Some representative placeholder content for the second slide.
+                        </p>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <img src="img/bicycle-6808140_1920.jpg" class="d-block w-100" alt="..."/>
+                    <div class="carousel-caption d-none d-md-block">
+                        <h5>Third slide label</h5>
+                        <p>
+                            Some representative placeholder content for the third slide.
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <button
+                class="carousel-control-prev"
+                type="button"
+                data-bs-target="#carouselExampleCaptions"
+                data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Önceki</span>
+            </button>
+            <button
+                class="carousel-control-next"
+                type="button"
+                data-bs-target="#carouselExampleCaptions"
+                data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Sonraki</span>
+            </button>
         </div>
-        <div class="carousel-inner">
-          <div class="carousel-item active">
-            <img
-              src="img/town-6818441_1920.jpg"
-              class="d-block w-100"
-              alt="..."
-            />
-            <div class="carousel-caption d-none d-md-block">
-              <h5>Bilge Adam</h5>
-              <p>
-                Some representative placeholder content for the first slide.
-              </p>
-            </div>
-          </div>
-          <div class="carousel-item">
-            <img
-              src="img/mountains-5784153_1920.jpg"
-              class="d-block w-100"
-              alt="..."
-            />
-            <div class="carousel-caption d-none d-md-block">
-              <h5>Second slide label</h5>
-              <p>
-                Some representative placeholder content for the second slide.
-              </p>
-            </div>
-          </div>
-          <div class="carousel-item">
-            <img
-              src="img/bicycle-6808140_1920.jpg"
-              class="d-block w-100"
-              alt="..."
-            />
-            <div class="carousel-caption d-none d-md-block">
-              <h5>Third slide label</h5>
-              <p>
-                Some representative placeholder content for the third slide.
-              </p>
-            </div>
-          </div>
-        </div>
-        <button
-          class="carousel-control-prev"
-          type="button"
-          data-bs-target="#carouselExampleCaptions"
-          data-bs-slide="prev"
-        >
-          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-          <span class="visually-hidden">Önceki</span>
-        </button>
-        <button
-          class="carousel-control-next"
-          type="button"
-          data-bs-target="#carouselExampleCaptions"
-          data-bs-slide="next"
-        >
-          <span class="carousel-control-next-icon" aria-hidden="true"></span>
-          <span class="visually-hidden">Sonraki</span>
-        </button>
-      </div>
     </header>
     <!-- header finish -->
 
     <!-- main start -->
     <main class="container" style="margin-top: 8%">
 
+        <!-- company information -->
+        <section id="company_information">
+            <div class="container">
+                <h3 class="text-center text-uppercase">company</h3>
+                <div class="row">
+                    <div class="col-md-3">
+                        <i class="fab fa-battle-net"></i>
+                        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit.</p>
+                    </div>
+                    <div class="col-md-3">
+                        <i style="color:orange;" class="fas fa-bezier-curve"></i>
+                        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit.</p>
+                    </div>
+                    <div class="col-md-3">
+                        <i style="color:blue" class="fas fa-bicycle"></i>
+                        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit.</p>
+                    </div>
+                    <div class="col-md-3">
+                        <i style="color:red" class="far fa-bell"></i>
+                        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit.</p>
+                    </div>
+                </div>
+            </div>
 
-      <!-- company information -->
-      <section id="company_information">
-        <div class="container">
-          <h3 class="text-center text-uppercase">company</h3>
-          <div class="row">
-            <div class="col-md-3"><i  class="fab fa-battle-net"></i> <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit.</p>   </div>
-            <div class="col-md-3"><i style="color:orange;" class="fas fa-bezier-curve"></i><p>Lorem ipsum dolor sit, amet consectetur adipisicing elit.</p></div>
-            <div class="col-md-3"><i style="color:blue"  class="fas fa-bicycle"></i><p>Lorem ipsum dolor sit, amet consectetur adipisicing elit.</p></div>
-            <div class="col-md-3"><i style="color:red" class="far fa-bell"></i><p>Lorem ipsum dolor sit, amet consectetur adipisicing elit.</p></div>
-          </div>
+        </section>
+
+        <!-- urunler -->
+        <section id="product">
+            <h3 class="text-center text-uppercase">Ürünler</h3>
+            <div class="row">
+                <div class="col-md-4">
+                    <div class="card">
+                        <img class="card-img-top" src="img/vinpearl-land-6847412_1920.jpg" alt=""/>
+                        <div class="card-body">
+                            <h4 class="card-title">Html5</h4>
+                            <p class="card-text line-clamp-5">
+                                Lorem ipsum dolor Lorem ipsum dolor sit amet consectetur adipisicing elit. Omnis
+                                exercitationem sint minima enim maiores aperiam porro incidunt facere officiis,
+                                inventore eligendi qui ad nihil quibusdam soluta! Reprehenderit autem assumenda
+                                eaque. Eveniet doloremque animi eaque deserunt fuga sapiente, neque quibusdam
+                                optio aliquam iste ducimus suscipit earum voluptas perspiciatis excepturi
+                                laudantium est officiis magni vitae repellat nulla quasi at. Beatae, at
+                                delectus! sit amet consectetur adipisicing elit. Fuga accusantium cum
+                                necessitatibus exercitationem dolores error eum? Ipsum, illum? Earum porro dolor
+                                sed temporibus. Dolor ipsam sed, consequuntur odit porro laudantium. Nemo earum
+                                amet veritatis eius a obcaecati numquam incidunt, perferendis, pariatur nihil
+                                reprehenderit, debitis hic ab! Voluptas neque tempore iure, earum dolore
+                                facilis, aperiam nostrum a hic cumque molestiae quis? Fuga quos enim itaque
+                                eligendi! Sunt quos obcaecati fugit ipsum? Perspiciatis, sapiente quas ducimus
+                                omnis illo quos. Ab laudantium vel natus ea quaerat modi beatae incidunt?
+                                Dolorem adipisci exercitationem mollitia! Fugiat quo natus aperiam quas
+                                voluptatum exercitationem animi optio illo veritatis! Officia alias iusto
+                                accusantium eligendi repellendus rem recusandae sed quos saepe debitis
+                                voluptatibus, laboriosam vel voluptas nesciunt consequatur sequi!
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="card">
+                        <img class="card-img-top" src="img/mountains-5784153_1920.jpg" alt=""/>
+                        <div class="card-body">
+                            <h4 class="card-title">Html5</h4>
+                            <p class="card-text line-clamp-5">
+                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Fuga accusantium cum
+                                necessitatibus exercitationem dolores error eum? Ipsum, illum? Earum porro dolor
+                                sed temporibus. Dolor ipsam sed, consequuntur odit porro laudantium. Nemo earum
+                                amet veritatis eius a obcaecati numquam incidunt, perferendis, pariatur nihil
+                                reprehenderit, debitis hic ab! Voluptas neque tempore iure, earum dolore
+                                facilis, aperiam nostrum a hic cumque molestiae quis? Fuga quos enim itaque
+                                eligendi! Sunt quos obcaecati fugit ipsum? Perspiciatis, sapiente quas ducimus
+                                omnis illo quos. Ab laudantium vel natus ea quaerat modi beatae incidunt?
+                                Dolorem adipisci exercitationem mollitia! Fugiat quo natus aperiam quas
+                                voluptatum exercitationem animi optio illo veritatis! Officia alias iusto
+                                accusantium eligendi repellendus rem recusandae sed quos saepe debitis
+                                voluptatibus, laboriosam vel voluptas nesciunt consequatur sequi!
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="card">
+                        <img class="card-img-top" src="img/town-6818441_1920.jpg" alt=""/>
+                        <div class="card-body">
+                            <h4 class="card-title">Html5</h4>
+                            <p class="card-text line-clamp-5">
+                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Fuga accusantium cum
+                                necessitatibus exercitationem dolores error eum? Ipsum, illum? Earum porro dolor
+                                sed temporibus. Dolor ipsam sed, consequuntur odit porro laudantium. Nemo earum
+                                amet veritatis eius a obcaecati numquam incidunt, perferendis, pariatur nihil
+                                reprehenderit, debitis hic ab! Voluptas neque tempore iure, earum dolore
+                                facilis, aperiam nostrum a hic cumque molestiae quis? Fuga quos enim itaque
+                                eligendi! Sunt quos obcaecati fugit ipsum? Perspiciatis, sapiente quas ducimus
+                                omnis illo quos. Ab laudantium vel natus ea quaerat modi beatae incidunt?
+                                Dolorem adipisci exercitationem mollitia! Fugiat quo natus aperiam quas
+                                voluptatum exercitationem animi optio illo veritatis! Officia alias iusto
+                                accusantium eligendi repellendus rem recusandae sed quos saepe debitis
+                                voluptatibus, laboriosam vel voluptas nesciunt consequatur sequi!
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="card">
+                        <img class="card-img-top" src="img/vinpearl-land-6847412_1920.jpg" alt=""/>
+                        <div class="card-body">
+                            <h4 class="card-title">Html5</h4>
+                            <p class="card-text line-clamp-5">
+                                Lorem ipsum dolor Lorem ipsum dolor sit amet consectetur adipisicing elit. Omnis
+                                exercitationem sint minima enim maiores aperiam porro incidunt facere officiis,
+                                inventore eligendi qui ad nihil quibusdam soluta! Reprehenderit autem assumenda
+                                eaque. Eveniet doloremque animi eaque deserunt fuga sapiente, neque quibusdam
+                                optio aliquam iste ducimus suscipit earum voluptas perspiciatis excepturi
+                                laudantium est officiis magni vitae repellat nulla quasi at. Beatae, at
+                                delectus! sit amet consectetur adipisicing elit. Fuga accusantium cum
+                                necessitatibus exercitationem dolores error eum? Ipsum, illum? Earum porro dolor
+                                sed temporibus. Dolor ipsam sed, consequuntur odit porro laudantium. Nemo earum
+                                amet veritatis eius a obcaecati numquam incidunt, perferendis, pariatur nihil
+                                reprehenderit, debitis hic ab! Voluptas neque tempore iure, earum dolore
+                                facilis, aperiam nostrum a hic cumque molestiae quis? Fuga quos enim itaque
+                                eligendi! Sunt quos obcaecati fugit ipsum? Perspiciatis, sapiente quas ducimus
+                                omnis illo quos. Ab laudantium vel natus ea quaerat modi beatae incidunt?
+                                Dolorem adipisci exercitationem mollitia! Fugiat quo natus aperiam quas
+                                voluptatum exercitationem animi optio illo veritatis! Officia alias iusto
+                                accusantium eligendi repellendus rem recusandae sed quos saepe debitis
+                                voluptatibus, laboriosam vel voluptas nesciunt consequatur sequi!
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="card">
+                        <img class="card-img-top" src="img/vinpearl-land-6847412_1920.jpg" alt=""/>
+                        <div class="card-body">
+                            <h4 class="card-title">Html5</h4>
+                            <p class="card-text line-clamp-5">
+                                Lorem ipsum dolor Lorem ipsum dolor sit amet consectetur adipisicing elit. Omnis
+                                exercitationem sint minima enim maiores aperiam porro incidunt facere officiis,
+                                inventore eligendi qui ad nihil quibusdam soluta! Reprehenderit autem assumenda
+                                eaque. Eveniet doloremque animi eaque deserunt fuga sapiente, neque quibusdam
+                                optio aliquam iste ducimus suscipit earum voluptas perspiciatis excepturi
+                                laudantium est officiis magni vitae repellat nulla quasi at. Beatae, at
+                                delectus! sit amet consectetur adipisicing elit. Fuga accusantium cum
+                                necessitatibus exercitationem dolores error eum? Ipsum, illum? Earum porro dolor
+                                sed temporibus. Dolor ipsam sed, consequuntur odit porro laudantium. Nemo earum
+                                amet veritatis eius a obcaecati numquam incidunt, perferendis, pariatur nihil
+                                reprehenderit, debitis hic ab! Voluptas neque tempore iure, earum dolore
+                                facilis, aperiam nostrum a hic cumque molestiae quis? Fuga quos enim itaque
+                                eligendi! Sunt quos obcaecati fugit ipsum? Perspiciatis, sapiente quas ducimus
+                                omnis illo quos. Ab laudantium vel natus ea quaerat modi beatae incidunt?
+                                Dolorem adipisci exercitationem mollitia! Fugiat quo natus aperiam quas
+                                voluptatum exercitationem animi optio illo veritatis! Officia alias iusto
+                                accusantium eligendi repellendus rem recusandae sed quos saepe debitis
+                                voluptatibus, laboriosam vel voluptas nesciunt consequatur sequi!
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="card">
+                        <img class="card-img-top" src="img/vinpearl-land-6847412_1920.jpg" alt=""/>
+                        <div class="card-body">
+                            <h4 class="card-title">Html5</h4>
+                            <p class="card-text line-clamp-5">
+                                Lorem ipsum dolor Lorem ipsum dolor sit amet consectetur adipisicing elit. Omnis
+                                exercitationem sint minima enim maiores aperiam porro incidunt facere officiis,
+                                inventore eligendi qui ad nihil quibusdam soluta! Reprehenderit autem assumenda
+                                eaque. Eveniet doloremque animi eaque deserunt fuga sapiente, neque quibusdam
+                                optio aliquam iste ducimus suscipit earum voluptas perspiciatis excepturi
+                                laudantium est officiis magni vitae repellat nulla quasi at. Beatae, at
+                                delectus! sit amet consectetur adipisicing elit. Fuga accusantium cum
+                                necessitatibus exercitationem dolores error eum? Ipsum, illum? Earum porro dolor
+                                sed temporibus. Dolor ipsam sed, consequuntur odit porro laudantium. Nemo earum
+                                amet veritatis eius a obcaecati numquam incidunt, perferendis, pariatur nihil
+                                reprehenderit, debitis hic ab! Voluptas neque tempore iure, earum dolore
+                                facilis, aperiam nostrum a hic cumque molestiae quis? Fuga quos enim itaque
+                                eligendi! Sunt quos obcaecati fugit ipsum? Perspiciatis, sapiente quas ducimus
+                                omnis illo quos. Ab laudantium vel natus ea quaerat modi beatae incidunt?
+                                Dolorem adipisci exercitationem mollitia! Fugiat quo natus aperiam quas
+                                voluptatum exercitationem animi optio illo veritatis! Officia alias iusto
+                                accusantium eligendi repellendus rem recusandae sed quos saepe debitis
+                                voluptatibus, laboriosam vel voluptas nesciunt consequatur sequi!
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="sss_id" style="margin-top:8%">
+            <h3 class="text-center text-uppercase">S.S.S</h3>
+            <div class="accordion" id="accordionExample">
+                <div class="accordion-item">
+                    <h2 class="accordion-header" id="headingOne">
+                        <button
+                            class="accordion-button"
+                            type="button"
+                            data-bs-toggle="collapse"
+                            data-bs-target="#collapseOne"
+                            aria-expanded="true"
+                            aria-controls="collapseOne">
+                            HTML nedir
+                        </button>
+                    </h2>
+                    <div
+                        id="collapseOne"
+                        class="accordion-collapse collapse show"
+                        aria-labelledby="headingOne"
+                        data-bs-parent="#accordionExample">
+                        <div class="accordion-body">
+                            <strong>This is the first item's accordion body.</strong>
+                            It is shown by default, until the collapse plugin adds the appropriate classes
+                            that we use to style each element. These classes control the overall appearance,
+                            as well as the showing and hiding via CSS transitions. You can modify any of
+                            this with custom CSS or overriding our default variables. It's also worth noting
+                            that just about any HTML can go within the
+                            <code>.accordion-body</code>, though the transition does limit overflow.
+                        </div>
+                    </div>
+                </div>
+                <div class="accordion-item">
+                    <h2 class="accordion-header" id="headingTwo">
+                        <button
+                            class="accordion-button collapsed"
+                            type="button"
+                            data-bs-toggle="collapse"
+                            data-bs-target="#collapseTwo"
+                            aria-expanded="false"
+                            aria-controls="collapseTwo">
+                            CSS nedir
+                        </button>
+                    </h2>
+                    <div
+                        id="collapseTwo"
+                        class="accordion-collapse collapse"
+                        aria-labelledby="headingTwo"
+                        data-bs-parent="#accordionExample">
+                        <div class="accordion-body">
+                            <strong>This is the second item's accordion body.</strong>
+                            It is hidden by default, until the collapse plugin adds the appropriate classes
+                            that we use to style each element. These classes control the overall appearance,
+                            as well as the showing and hiding via CSS transitions. You can modify any of
+                            this with custom CSS or overriding our default variables. It's also worth noting
+                            that just about any HTML can go within the
+                            <code>.accordion-body</code>, though the transition does limit overflow.
+                        </div>
+                    </div>
+                </div>
+                <div class="accordion-item">
+                    <h2 class="accordion-header" id="headingThree">
+                        <button
+                            class="accordion-button collapsed"
+                            type="button"
+                            data-bs-toggle="collapse"
+                            data-bs-target="#collapseThree"
+                            aria-expanded="false"
+                            aria-controls="collapseThree">
+                            Jquery
+                        </button>
+                    </h2>
+                    <div
+                        id="collapseThree"
+                        class="accordion-collapse collapse"
+                        aria-labelledby="headingThree"
+                        data-bs-parent="#accordionExample">
+                        <div class="accordion-body">
+                            <strong>This is the third item's accordion body.</strong>
+                            It is hidden by default, until the collapse plugin adds the appropriate classes
+                            that we use to style each element. These classes control the overall appearance,
+                            as well as the showing and hiding via CSS transitions. You can modify any of
+                            this with custom CSS or overriding our default variables. It's also worth noting
+                            that just about any HTML can go within the
+                            <code>.accordion-body</code>, though the transition does limit overflow.
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <br><br><br><br>
+
+        <p id="dom_id" class="dom_class text-center display-1">Projelerim-1 DOM
+        </p>
+        <p class="dom_class text-center display-1">Projelerim-2 DOM
+        </p>
+        <div id="dom">
+            <p class="deneme text-center display-1">Sub Projelerim-1 DOM
+            </p>
+            <p class="deneme2 text-center display-1">Sub Projelerim-2 DOM
+            </p>
         </div>
 
-      </section>
-
-
-
-      <!-- urunler -->
-      <section id="product">
-        <h3 class="text-center text-uppercase">Ürünler</h3>
-        <div class="row">
-          <div class="col-md-4">
-            <div class="card">
-              <img
-                class="card-img-top"
-                src="img/vinpearl-land-6847412_1920.jpg"
-                alt=""
-              />
-              <div class="card-body">
-                <h4 class="card-title">Html5</h4>
-                <p class="card-text line-clamp-5">
-                  Lorem ipsum dolor Lorem ipsum dolor sit amet consectetur
-                  adipisicing elit. Omnis exercitationem sint minima enim
-                  maiores aperiam porro incidunt facere officiis, inventore
-                  eligendi qui ad nihil quibusdam soluta! Reprehenderit autem
-                  assumenda eaque. Eveniet doloremque animi eaque deserunt fuga
-                  sapiente, neque quibusdam optio aliquam iste ducimus suscipit
-                  earum voluptas perspiciatis excepturi laudantium est officiis
-                  magni vitae repellat nulla quasi at. Beatae, at delectus! sit
-                  amet consectetur adipisicing elit. Fuga accusantium cum
-                  necessitatibus exercitationem dolores error eum? Ipsum, illum?
-                  Earum porro dolor sed temporibus. Dolor ipsam sed,
-                  consequuntur odit porro laudantium. Nemo earum amet veritatis
-                  eius a obcaecati numquam incidunt, perferendis, pariatur nihil
-                  reprehenderit, debitis hic ab! Voluptas neque tempore iure,
-                  earum dolore facilis, aperiam nostrum a hic cumque molestiae
-                  quis? Fuga quos enim itaque eligendi! Sunt quos obcaecati
-                  fugit ipsum? Perspiciatis, sapiente quas ducimus omnis illo
-                  quos. Ab laudantium vel natus ea quaerat modi beatae incidunt?
-                  Dolorem adipisci exercitationem mollitia! Fugiat quo natus
-                  aperiam quas voluptatum exercitationem animi optio illo
-                  veritatis! Officia alias iusto accusantium eligendi
-                  repellendus rem recusandae sed quos saepe debitis
-                  voluptatibus, laboriosam vel voluptas nesciunt consequatur
-                  sequi!
-                </p>
-              </div>
-            </div>
-          </div>
-          <div class="col-md-4">
-            <div class="card">
-              <img
-                class="card-img-top"
-                src="img/mountains-5784153_1920.jpg"
-                alt=""
-              />
-              <div class="card-body">
-                <h4 class="card-title">Html5</h4>
-                <p class="card-text line-clamp-5">
-                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Fuga
-                  accusantium cum necessitatibus exercitationem dolores error
-                  eum? Ipsum, illum? Earum porro dolor sed temporibus. Dolor
-                  ipsam sed, consequuntur odit porro laudantium. Nemo earum amet
-                  veritatis eius a obcaecati numquam incidunt, perferendis,
-                  pariatur nihil reprehenderit, debitis hic ab! Voluptas neque
-                  tempore iure, earum dolore facilis, aperiam nostrum a hic
-                  cumque molestiae quis? Fuga quos enim itaque eligendi! Sunt
-                  quos obcaecati fugit ipsum? Perspiciatis, sapiente quas
-                  ducimus omnis illo quos. Ab laudantium vel natus ea quaerat
-                  modi beatae incidunt? Dolorem adipisci exercitationem
-                  mollitia! Fugiat quo natus aperiam quas voluptatum
-                  exercitationem animi optio illo veritatis! Officia alias iusto
-                  accusantium eligendi repellendus rem recusandae sed quos saepe
-                  debitis voluptatibus, laboriosam vel voluptas nesciunt
-                  consequatur sequi!
-                </p>
-              </div>
-            </div>
-          </div>
-          <div class="col-md-4">
-            <div class="card">
-              <img
-                class="card-img-top"
-                src="img/town-6818441_1920.jpg"
-                alt=""
-              />
-              <div class="card-body">
-                <h4 class="card-title">Html5</h4>
-                <p class="card-text line-clamp-5">
-                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Fuga
-                  accusantium cum necessitatibus exercitationem dolores error
-                  eum? Ipsum, illum? Earum porro dolor sed temporibus. Dolor
-                  ipsam sed, consequuntur odit porro laudantium. Nemo earum amet
-                  veritatis eius a obcaecati numquam incidunt, perferendis,
-                  pariatur nihil reprehenderit, debitis hic ab! Voluptas neque
-                  tempore iure, earum dolore facilis, aperiam nostrum a hic
-                  cumque molestiae quis? Fuga quos enim itaque eligendi! Sunt
-                  quos obcaecati fugit ipsum? Perspiciatis, sapiente quas
-                  ducimus omnis illo quos. Ab laudantium vel natus ea quaerat
-                  modi beatae incidunt? Dolorem adipisci exercitationem
-                  mollitia! Fugiat quo natus aperiam quas voluptatum
-                  exercitationem animi optio illo veritatis! Officia alias iusto
-                  accusantium eligendi repellendus rem recusandae sed quos saepe
-                  debitis voluptatibus, laboriosam vel voluptas nesciunt
-                  consequatur sequi!
-                </p>
-              </div>
-            </div>
-          </div>
-          <div class="col-md-4">
-            <div class="card">
-              <img
-                class="card-img-top"
-                src="img/vinpearl-land-6847412_1920.jpg"
-                alt=""
-              />
-              <div class="card-body">
-                <h4 class="card-title">Html5</h4>
-                <p class="card-text line-clamp-5">
-                  Lorem ipsum dolor Lorem ipsum dolor sit amet consectetur
-                  adipisicing elit. Omnis exercitationem sint minima enim
-                  maiores aperiam porro incidunt facere officiis, inventore
-                  eligendi qui ad nihil quibusdam soluta! Reprehenderit autem
-                  assumenda eaque. Eveniet doloremque animi eaque deserunt fuga
-                  sapiente, neque quibusdam optio aliquam iste ducimus suscipit
-                  earum voluptas perspiciatis excepturi laudantium est officiis
-                  magni vitae repellat nulla quasi at. Beatae, at delectus! sit
-                  amet consectetur adipisicing elit. Fuga accusantium cum
-                  necessitatibus exercitationem dolores error eum? Ipsum, illum?
-                  Earum porro dolor sed temporibus. Dolor ipsam sed,
-                  consequuntur odit porro laudantium. Nemo earum amet veritatis
-                  eius a obcaecati numquam incidunt, perferendis, pariatur nihil
-                  reprehenderit, debitis hic ab! Voluptas neque tempore iure,
-                  earum dolore facilis, aperiam nostrum a hic cumque molestiae
-                  quis? Fuga quos enim itaque eligendi! Sunt quos obcaecati
-                  fugit ipsum? Perspiciatis, sapiente quas ducimus omnis illo
-                  quos. Ab laudantium vel natus ea quaerat modi beatae incidunt?
-                  Dolorem adipisci exercitationem mollitia! Fugiat quo natus
-                  aperiam quas voluptatum exercitationem animi optio illo
-                  veritatis! Officia alias iusto accusantium eligendi
-                  repellendus rem recusandae sed quos saepe debitis
-                  voluptatibus, laboriosam vel voluptas nesciunt consequatur
-                  sequi!
-                </p>
-              </div>
-            </div>
-          </div>
-          <div class="col-md-4">
-            <div class="card">
-              <img
-                class="card-img-top"
-                src="img/vinpearl-land-6847412_1920.jpg"
-                alt=""
-              />
-              <div class="card-body">
-                <h4 class="card-title">Html5</h4>
-                <p class="card-text line-clamp-5">
-                  Lorem ipsum dolor Lorem ipsum dolor sit amet consectetur
-                  adipisicing elit. Omnis exercitationem sint minima enim
-                  maiores aperiam porro incidunt facere officiis, inventore
-                  eligendi qui ad nihil quibusdam soluta! Reprehenderit autem
-                  assumenda eaque. Eveniet doloremque animi eaque deserunt fuga
-                  sapiente, neque quibusdam optio aliquam iste ducimus suscipit
-                  earum voluptas perspiciatis excepturi laudantium est officiis
-                  magni vitae repellat nulla quasi at. Beatae, at delectus! sit
-                  amet consectetur adipisicing elit. Fuga accusantium cum
-                  necessitatibus exercitationem dolores error eum? Ipsum, illum?
-                  Earum porro dolor sed temporibus. Dolor ipsam sed,
-                  consequuntur odit porro laudantium. Nemo earum amet veritatis
-                  eius a obcaecati numquam incidunt, perferendis, pariatur nihil
-                  reprehenderit, debitis hic ab! Voluptas neque tempore iure,
-                  earum dolore facilis, aperiam nostrum a hic cumque molestiae
-                  quis? Fuga quos enim itaque eligendi! Sunt quos obcaecati
-                  fugit ipsum? Perspiciatis, sapiente quas ducimus omnis illo
-                  quos. Ab laudantium vel natus ea quaerat modi beatae incidunt?
-                  Dolorem adipisci exercitationem mollitia! Fugiat quo natus
-                  aperiam quas voluptatum exercitationem animi optio illo
-                  veritatis! Officia alias iusto accusantium eligendi
-                  repellendus rem recusandae sed quos saepe debitis
-                  voluptatibus, laboriosam vel voluptas nesciunt consequatur
-                  sequi!
-                </p>
-              </div>
-            </div>
-          </div>
-          <div class="col-md-4">
-            <div class="card">
-              <img
-                class="card-img-top"
-                src="img/vinpearl-land-6847412_1920.jpg"
-                alt=""
-              />
-              <div class="card-body">
-                <h4 class="card-title">Html5</h4>
-                <p class="card-text line-clamp-5">
-                  Lorem ipsum dolor Lorem ipsum dolor sit amet consectetur
-                  adipisicing elit. Omnis exercitationem sint minima enim
-                  maiores aperiam porro incidunt facere officiis, inventore
-                  eligendi qui ad nihil quibusdam soluta! Reprehenderit autem
-                  assumenda eaque. Eveniet doloremque animi eaque deserunt fuga
-                  sapiente, neque quibusdam optio aliquam iste ducimus suscipit
-                  earum voluptas perspiciatis excepturi laudantium est officiis
-                  magni vitae repellat nulla quasi at. Beatae, at delectus! sit
-                  amet consectetur adipisicing elit. Fuga accusantium cum
-                  necessitatibus exercitationem dolores error eum? Ipsum, illum?
-                  Earum porro dolor sed temporibus. Dolor ipsam sed,
-                  consequuntur odit porro laudantium. Nemo earum amet veritatis
-                  eius a obcaecati numquam incidunt, perferendis, pariatur nihil
-                  reprehenderit, debitis hic ab! Voluptas neque tempore iure,
-                  earum dolore facilis, aperiam nostrum a hic cumque molestiae
-                  quis? Fuga quos enim itaque eligendi! Sunt quos obcaecati
-                  fugit ipsum? Perspiciatis, sapiente quas ducimus omnis illo
-                  quos. Ab laudantium vel natus ea quaerat modi beatae incidunt?
-                  Dolorem adipisci exercitationem mollitia! Fugiat quo natus
-                  aperiam quas voluptatum exercitationem animi optio illo
-                  veritatis! Officia alias iusto accusantium eligendi
-                  repellendus rem recusandae sed quos saepe debitis
-                  voluptatibus, laboriosam vel voluptas nesciunt consequatur
-                  sequi!
-                </p>
-              </div>
-            </div>
-          </div>
-        </div>
-      </section>
-   
-   <section id="sss_id" style="margin-top:8%">
-    <h3 class="text-center text-uppercase">S.S.S</h3>
-    <div class="accordion" id="accordionExample">
-      <div class="accordion-item">
-        <h2 class="accordion-header" id="headingOne">
-          <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
-            HTML nedir
-          </button>
-        </h2>
-        <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne" data-bs-parent="#accordionExample">
-          <div class="accordion-body">
-            <strong>This is the first item's accordion body.</strong> It is shown by default, until the collapse plugin adds the appropriate classes that we use to style each element. These classes control the overall appearance, as well as the showing and hiding via CSS transitions. You can modify any of this with custom CSS or overriding our default variables. It's also worth noting that just about any HTML can go within the <code>.accordion-body</code>, though the transition does limit overflow.
-          </div>
-        </div>
-      </div>
-      <div class="accordion-item">
-        <h2 class="accordion-header" id="headingTwo">
-          <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
-            CSS nedir
-          </button>
-        </h2>
-        <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo" data-bs-parent="#accordionExample">
-          <div class="accordion-body">
-            <strong>This is the second item's accordion body.</strong> It is hidden by default, until the collapse plugin adds the appropriate classes that we use to style each element. These classes control the overall appearance, as well as the showing and hiding via CSS transitions. You can modify any of this with custom CSS or overriding our default variables. It's also worth noting that just about any HTML can go within the <code>.accordion-body</code>, though the transition does limit overflow.
-          </div>
-        </div>
-      </div>
-      <div class="accordion-item">
-        <h2 class="accordion-header" id="headingThree">
-          <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
-            Jquery
-          </button>
-        </h2>
-        <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree" data-bs-parent="#accordionExample">
-          <div class="accordion-body">
-            <strong>This is the third item's accordion body.</strong> It is hidden by default, until the collapse plugin adds the appropriate classes that we use to style each element. These classes control the overall appearance, as well as the showing and hiding via CSS transitions. You can modify any of this with custom CSS or overriding our default variables. It's also worth noting that just about any HTML can go within the <code>.accordion-body</code>, though the transition does limit overflow.
-          </div>
-        </div>
-      </div>
-    </div>
-   </section>
-   <br><br><br><br>
-
-   <p id="dom_id" class="dom_class text-center display-1">Projelerim-1 DOM </p>
-   <p  class="dom_class text-center display-1">Projelerim-2 DOM </p>
-    <div id="dom">
-      <p  class="deneme text-center display-1">Sub Projelerim-1 DOM </p>
-      <p  class="deneme2 text-center display-1">Sub Projelerim-2 DOM </p>
-    </div>
- 
-    <br><br><br><br>
+        <br><br><br><br>
     </main>
     <!-- main finish -->
 
     <!-- footer start -->
     <footer class="bg-dark text-white">
-      <div class="container-fluid">
-        <div class="row">
-          <div class="col-md-6 mt-3">
-            <ul>
-              <li>
-                <i class="fa fa-address-book" aria-hidden="true"
-                  ><a href="#">Başakşehir/İstanbul</a>
-                </i>
-              </li>
-              <li>
-                <i class="fas fa-mail-bulk">
-                  <a href="mailto:hamit.mizrak@bilgeadam.com"
-                    >hamit.mizrak@bilgeadam.com</a
-                  >
-                </i>
-              </li>
-              <li>
-                <i class="fa fa-mobile" aria-hidden="true"
-                  ><a href="tel:+905555555">+90 555 55 55</a>
-                </i>
-              </li>
-              <li>
-                <button onclick ="tarihGoster()"  id="button_id" class="btn btn-primary mt-2">click</button>
-                <button ondblclick ="tarihGoster()"   class="btn btn-primary mt-2">ondblclick</button>
-                <button onmouseup ="tarihGoster()"  id="button_id2" class="btn btn-primary mt-2">onmouseup</button>
-                <p id="tarih"></p>
-                <p id="tarih2"></p>
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-md-6 mt-3">
+                    <ul>
+                        <li>
+                            <i class="fa fa-address-book" aria-hidden="true">
+                                <a href="#">Başakşehir/İstanbul</a>
+                            </i>
+                        </li>
+                        <li>
+                            <i class="fas fa-mail-bulk">
+                                <a href="mailto:hamit.mizrak@bilgeadam.com">hamit.mizrak@bilgeadam.com</a>
+                            </i>
+                        </li>
+                        <li>
+                            <i class="fa fa-mobile" aria-hidden="true">
+                                <a href="tel:+905555555">+90 555 55 55</a>
+                            </i>
+                        </li>
+                        <li>
+                            <button onclick="tarihGoster()" id="button_id" class="btn btn-primary mt-2">click</button>
+                            <button ondblclick="tarihGoster()" class="btn btn-primary mt-2">ondblclick</button>
+                            <button onmouseup="tarihGoster()" id="button_id2" class="btn btn-primary mt-2">onmouseup</button>
+                            <p id="tarih"></p>
+                            <p id="tarih2"></p>
 
-              </li>
-            </ul>
-          </div>
-          <div class="col-md-6 mt-3">
-            <!-- https://www.embedgooglemap.net/ -->
-            <div class="mapouter">
-              <div class="gmap_canvas">
-                <iframe
-                  width="755"
-                  height="339"
-                  id="gmap_canvas"
-                  src="https://maps.google.com/maps?q=istanbul&t=&z=9&ie=UTF8&iwloc=&output=embed"
-                  frameborder="0"
-                  scrolling="no"
-                  marginheight="0"
-                  marginwidth="0"
-                ></iframe
-                ><a href="https://123movies-org.net"></a><br /><style>
-                  .mapouter {
-                    position: relative;
-                    text-align: right;
-                    height: 339px;
-                    width: 755px;
-                  }</style
-                ><a href="https://www.embedgooglemap.net"
-                  >how to embed google maps</a
-                ><style>
-                  .gmap_canvas {
-                    overflow: hidden;
-                    background: none !important;
-                    height: 339px;
-                    width: 755px;
-                  }
-                </style>
-              </div>
+                        </li>
+                    </ul>
+                </div>
+                <div class="col-md-6 mt-3">
+                    <!-- https://www.embedgooglemap.net/ -->
+                    <div class="mapouter">
+                        <div class="gmap_canvas">
+                            <iframe
+                                width="755"
+                                height="339"
+                                id="gmap_canvas"
+                                src="https://maps.google.com/maps?q=istanbul&t=&z=9&ie=UTF8&iwloc=&output=embed"
+                                frameborder="0"
+                                scrolling="no"
+                                marginheight="0"
+                                marginwidth="0"></iframe>
+                            <a href="https://123movies-org.net"></a><br/>
+                            <style>
+                                .mapouter {
+                                    position: relative;
+                                    text-align: right;
+                                    height: 339px;
+                                    width: 755px;
+                                }
+                            </style>
+                            <a href="https://www.embedgooglemap.net">how to embed google maps</a>
+                            <style>
+                                .gmap_canvas {
+                                    overflow: hidden;
+                                    background: none !important;
+                                    height: 339px;
+                                    width: 755px;
+                                }
+                            </style>
+                        </div>
+                    </div>
+                </div>
             </div>
-          </div>
+            <div class="row">
+                <div
+                    id="footer_sub"
+                    style="color: white; background: black"
+                    class="col-md-12 text-center">
+                    <span style="color: red; font-size: 1.3rem">&copy;</span>
+                    Bütün Hakları saklıdır.
+                </div>
+            </div>
         </div>
-        <div class="row">
-          <div
-            id="footer_sub"
-            style="color: white; background: black"
-            class="col-md-12 text-center"
-          >
-            <span style="color: red; font-size: 1.3rem">&copy;</span> Bütün
-            Hakları saklıdır.
-          </div>
-        </div>
-      </div>
     </footer>
     <!-- footer finish -->
 
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.min.js"></script>
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+    <script
+        src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+    <script
+        src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.min.js"></script>
+    <script
+        src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
     <!-- external js -->
     <script src="js/external.js"></script>
     <script src="js/tutorials_javascript.js"></script>
-  </body>
+</body>
+
 </html>
