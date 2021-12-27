@@ -9,10 +9,13 @@ var computer = /** @class */ (function () {
     }
     //metot yaz
     computer.prototype.computerMetot = function () {
-        alert(this.computerId +
+        alert("".concat(this.computerName) +
+            this.computerId +
             this.computerName +
             this.computerTrade +
             this.computerPrice);
     };
     return computer;
 }());
+var sonuc = new computer(1, "msi-gl", "msi", 1000);
+sonuc.computerMetot();

@@ -27,6 +27,7 @@ class computer {
   //metot yaz
   computerMetot() {
     alert(
+        `${this.computerName}`+
       this.computerId +
         this.computerName +
         this.computerTrade +
@@ -34,3 +35,7 @@ class computer {
     );
   }
 }
+
+
+let sonuc=new computer(1,"msi-gl","msi",1000);
+sonuc.computerMetot();
