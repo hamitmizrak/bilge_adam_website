@@ -18,6 +18,15 @@ $(function () {
 
     $("#ortalama").html(vki);
     console.log(vki);
-
   });
 });
+
+function javascript_codes() {
+  let kilo = Number(document.getElementById("kilo").value);
+  let boy = Number(document.getElementById("boy").value) / 100;
+  let vki = Math.round(kilo / Math.pow(boy, 2));
+  console.log("JavaScript : " + vki);
+  document.getElementById("ortalama").value = "<b>" + vki + "</b>";
+}
+
+
