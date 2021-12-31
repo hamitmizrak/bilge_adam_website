@@ -9,20 +9,60 @@
 <body>
    
     <script>
-    let dizi=[1,2,3,4,5,6,7,8];
-    let mapDizi=dizi.map(function (params) {
-        return params*2;
-    });
+        let dizi=[1,2,3,4,5,6,7,8];
+        let mapDizi=dizi.map(function (params) {
+            return params*2;
+        });
 
-    let mapDizi2=dizi.map(k=>k*2 );
-    let mapDizi3=dizi.map((k)=>k*2 );
+        let mapDizi2=dizi.map(k=>k*2 );
+        let mapDizi3=dizi.map((k)=>k*2 );
 
-    console.log(dizi);
-    console.log(mapDizi);
-    console.log(mapDizi2);
-    console.log(mapDizi3);
+        console.log(dizi);
+        console.log(mapDizi);
+        console.log(mapDizi2);
+        console.log(mapDizi3);
     </script>
     
+<p id="callback_id">...</p>
+
+    <script>
+        function domWriter(params) {
+            //dom
+          document.getElementById("callback_id").innerHTML =params; 
+        }
+
+        function name1() {
+            let hello1=prompt("Birşeyler-1 yazın lütfen");
+            domWriter(hello1);
+        }
+
+        function name2() {
+            let hello2=prompt("Birşeyler-2 yazın lütfen");
+            domWriter(hello2);
+        }
+        //name1();
+        //name2();
+    </script>
+
+<!--callback: bir fonksiyonun bitmesini diğerinin başlaması demektir.-->
+<p id="callback_id2">2...2</p>
+<script>
+
+//dom ekranda göster
+function domWriter2(par2) {
+          document.getElementById("callback_id2").innerHTML =par2; 
+ }
+ 
+//callback function
+function callBackFunction(sayi,callback) {
+    let ust=Math.pow(sayi,2);
+    callback(ust);
+}
+
+//2 farklı fonksiyonu çağır sırayla devam etsin
+callBackFunction(4,domWriter2);
+</script>
+
 
 </body>
 </html>
