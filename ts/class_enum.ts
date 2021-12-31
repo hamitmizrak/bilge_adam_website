@@ -23,6 +23,8 @@ class Student {
   }
 }
 
+
+//abstract class Student {}
 class Ogrenci extends Student {
   ogrenciMethod() {
     alert(

@@ -26,6 +26,7 @@ var Student = /** @class */ (function () {
     };
     return Student;
 }());
+//abstract class Student {}
 var Ogrenci = /** @class */ (function (_super) {
     __extends(Ogrenci, _super);
     function Ogrenci() {
